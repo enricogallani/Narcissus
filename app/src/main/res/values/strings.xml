@@ -5,8 +5,22 @@
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
-    <string name="previous">Previous</string>
+    <string name="previous">Preencha o usuário!!</string>
+    <string name="empty_user">Preencha o usuário!!</string>
+    <string name="empty_password">Preencha a senha!!</string>
+    <string name="incorrect_value">Senha ou usuário inválido!!</string>
+    <string name="empty_name">Senha ou usuário inválido!!</string>
+    <string name="correct_value">Usuário cadastrado com sucesso!!</string>
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">contato@narcissus.con.br</string>
+    <string name="nav_header_desc">Narcissus</string>
+
+    <string name="menu_appointment">Consulta</string>
+    <string name="title_activity_menu">MenuActivity</string>
 </resources>

@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".ui.SignUpActivity">
 
     <TextView
         android:id="@+id/textView4"
@@ -32,7 +33,7 @@
         app:layout_constraintVertical_bias="0.144" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress2"
+        android:id="@+id/name"
         android:layout_width="309dp"
         android:layout_height="46dp"
         android:ems="10"
@@ -46,7 +47,7 @@
 
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress4"
+        android:id="@+id/email"
         android:layout_width="309dp"
         android:layout_height="46dp"
         android:ems="10"
@@ -59,7 +60,7 @@
         app:layout_constraintVertical_bias="0.686" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/cpftext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="CPF"
@@ -72,7 +73,7 @@
         app:layout_constraintVertical_bias="0.286" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/emailtext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="E-mail"
@@ -85,7 +86,7 @@
         app:layout_constraintVertical_bias="0.637" />
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/senhatext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Senha"
@@ -98,7 +99,7 @@
         app:layout_constraintVertical_bias="0.776" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/dadostext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Dados para o login:"
@@ -111,7 +112,7 @@
         app:layout_constraintVertical_bias="0.44" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/infotext"
         android:layout_width="279dp"
         android:layout_height="76dp"
         android:text="*Você precisará dessas informações para entrar no aplicativo"
@@ -124,7 +125,7 @@
         app:layout_constraintVertical_bias="0.514" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/cpf"
         android:layout_width="309dp"
         android:layout_height="46dp"
         android:ems="10"
@@ -137,7 +138,7 @@
         app:layout_constraintVertical_bias="0.334" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/password"
         android:layout_width="309dp"
         android:layout_height="46dp"
         android:ems="10"
@@ -150,10 +151,11 @@
         app:layout_constraintVertical_bias="0.837" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/signup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Cadastrar"
+        android:textSize="15dp"
         android:backgroundTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
