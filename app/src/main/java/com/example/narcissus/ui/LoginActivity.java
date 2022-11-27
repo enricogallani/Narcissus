@@ -35,7 +35,11 @@ public class LoginActivity extends AppCompatActivity {
             String user = binding.user.getText().toString();
             String password = binding.password.getText().toString();
 
-            viewModel.login(user, password);
+            //viewModel.login(user, password);
+            final Intent intent = new Intent(getApplicationContext(), MenuActivity.class);
+            //intent.putExtra("user", user);
+
+            startActivity(intent);
         });
 
         viewModel.getUserEmpty().observe(this, this::userEmpty);

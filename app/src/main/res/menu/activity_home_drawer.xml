@@ -5,8 +5,28 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_appointment" />
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Log-out" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_account"
+            android:title="Conta" />
+        <item
+            android:id="@+id/nav_scheduler"
+            android:icon="@drawable/ic_callendar"
+            android:title="Agenda" />
+        <item
+            android:id="@+id/nav_procedure"
+            android:icon="@drawable/ic_procedure"
+            android:title="Procedimento" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_contact"
+            android:title="Contato" />
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/ic_location"
+            android:title="Localização" />
     </group>
 </menu>

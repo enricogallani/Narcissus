@@ -12,9 +12,32 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_appointment"
-        android:name="com.example.narcissus.ui.ui.gallery.AppointmentFragment"
+        android:id="@+id/nav_procedure"
+        android:name="com.example.narcissus.ui.procedure.ProcedureFragment"
+        android:label="Contato"
+        tools:layout="@layout/fragment_procedure" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.narcissus.ui.logout.LogoutFragment"
+        android:label="Log-out" />
+
+    <fragment
+        android:id="@+id/nav_location"
+        android:name="com.example.narcissus.ui.location.LocationFragment"
+        android:label="Contato"
+        tools:layout="@layout/fragment_location" />
+
+    <fragment
+        android:id="@+id/nav_scheduler"
+        android:name="com.example.narcissus.ui.appointment.AppointmentFragment"
         android:label="@string/menu_appointment"
         tools:layout="@layout/fragment_appointment" />
+
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.example.narcissus.ui.contact.ContactFragment"
+        android:label="Contato"
+        tools:layout="@layout/fragment_contact" />
 
 </navigation>

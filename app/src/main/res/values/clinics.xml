@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clinics_array">
+        <item>Narcissus</item>
+        <item>Paulinho Care</item>
+        <item>Guadalarrara beauty face</item>
+    </string-array>
+</resources>

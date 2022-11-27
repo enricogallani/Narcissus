@@ -1,5 +1,7 @@
 package com.example.narcissus.repository;
 
+import com.example.narcissus.data.Appointment;
+import com.example.narcissus.data.Message;
 import com.example.narcissus.data.SuccessMessage;
 import com.example.narcissus.data.User;
 
@@ -13,5 +15,12 @@ public interface ApiInterface {
     Call<SuccessMessage> signup(@Body User user);
 
     @POST("/login")
-    Call<SuccessMessage> login(@Body User user);
+    Call<User> login(@Body User user);
+
+    @POST("/appointment")
+    Call<SuccessMessage> createAppointment(@Body Appointment appointment);
+
+    @POST("/message")
+    Call<SuccessMessage> createMessage(@Body Message message);
+
 }

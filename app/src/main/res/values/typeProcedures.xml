@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="procedures_array">
+        <item>Preenchimento</item>
+        <item>Peeling</item>
+        <item>Hamonização facil</item>
+        <item>Botox</item>
+        <item>Bichectomia</item>
+    </string-array>
+</resources>

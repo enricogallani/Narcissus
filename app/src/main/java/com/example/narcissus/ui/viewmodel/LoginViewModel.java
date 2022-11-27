@@ -31,15 +31,15 @@ public class LoginViewModel extends ViewModel {
     }
 
     private void callApi(User user) {
-        final Call<SuccessMessage> call = api.login(user);
-        call.enqueue(new Callback<SuccessMessage>() {
+        final Call<User> call = api.login(user);
+        call.enqueue(new Callback<User>() {
             @Override
-            public void onResponse(Call<SuccessMessage> call, Response<SuccessMessage> response) {
+            public void onResponse(Call<User> call, Response<User> response) {
                 loginSuccess.setValue(null);
             }
 
             @Override
-            public void onFailure(Call<SuccessMessage> call, Throwable t) {
+            public void onFailure(Call<User> call, Throwable t) {
                 Log.d("LSKDLDSKDSLKDLS", "SLDKLSDKLSD " + t.getMessage());
                 loginInvalid.setValue(null);
             }

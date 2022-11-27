@@ -15,8 +15,8 @@ public class ApiClient {
         OkHttpClient client = new OkHttpClient.Builder().addInterceptor(interceptor).build();
 
         retrofit = new Retrofit.Builder()
-                //.baseUrl("http://192.168.5.163:8080")
-                .baseUrl("http://ec2-54-157-208-61.compute-1.amazonaws.com:8080")
+                .baseUrl("http://192.168.0.229:8080")
+                //.baseUrl("http://ec2-54-157-208-61.compute-1.amazonaws.com:8080")
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(client)
                 .build();
