@@ -7,7 +7,7 @@ Como acessar o aplicativo mobile Narcissus
 
 2. Clique na aba "Code" e copie o link 
 
-3. Com o visual studio aberto clone o projeto na aba github 
+3. Com o android studio aberto, clone o projeto na aba "Git" 
 
 4. Execute o projeto 
 
